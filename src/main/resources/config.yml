@@ -1,0 +1,365 @@
+default-kits:
+  basic:
+    permission: kits.preset.basic
+    display-name: "§7Basic"
+    material: DIAMOND_SWORD
+    contents:
+      32: H4sIAAAAAAAA/0XLMQoCMRBG4V+DILESRe9i7RlsZUxGN0hmlpksXtJDaaoUr/p4EQjYXanRjc2LCrD/brEuGedahJPRs11yoaqS7/5RywGbpIs0AKuImLTOKizNI05jYUkTSasdAg4DfCKbhd37H3AcssjDmN5FXp3+/QC7HGVrnQAAAA==
+      33: H4sIAAAAAAAA/0XLPQpCMRBF4atBkFiJP4uxdg22MiajL0huHpk8cJEuSlOlONXH8YDD7ipNblotFQL77xbrFHHKiRqqPNslJsmF8S4fddiEsrABWHn4UPJcqGzmcR6DMkzCljs4HAbYJHWmmvXf4Thk4aOqvBNfnf79ANcWKIqbAAAA
+      34: GOLDEN_APPLE:64
+      35: COBWEB:64
+      36: BLUE_ICE:32
+      37: WATER_BUCKET
+      38: H4sIAAAAAAAA/0XLQQrCMBQE0NEgSEREEA/j2jN0/xu/GiTzS/pLL+mhNKssZjNvJgIBh7u4DFrnbATO3z22+YFjydRU5em30daAXbKFDmATEZOVyaj0OeLah8r0FnppEHDqMNmqtX0DLr1dOFaVT+ar0T8/8PslaY8AAAA=
+      39: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      40: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+      5: EXPERIENCE_BOTTLE:64
+      6: WIND_CHARGE:64
+      7: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      8: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      9: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      10: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+      11: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+      12: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      13: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+      14: EXPERIENCE_BOTTLE:64
+      15: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      16: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      17: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      18: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      19: LAVA_BUCKET
+      20: WATER_BUCKET
+      21: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      22: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+      23: H4sIAAAAAAAA/1XMQQrCMBCF4adBkLgSRPAqrj2D2zKdTHQomZQ0Bb2jh2qzKi7e6uN/HnA4PajSU8qk2YDz74i9BtySmnChWO9BKWUL3ag80EccDpxnqwB2Hp5zGrOJ1cnjukVi/CarqYHDZYPZ+iI0qL3awR9JjMq6lt9G6xbfifTPoAAAAA==
+      24: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      25: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      26: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      27: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      28: LAVA_BUCKET
+      29: WATER_BUCKET
+      30: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      31: ARROW:64
+      armor-helmet: H4sIAAAAAAAA/1XOwQrCQAwE0KmLIOtJEPFbPPsNXiVmow26Sdmmf+lHab0UD3N6zDAZSNieKegibVQ3YPfeYKUFx6om3Ogep6JU3cq1l1eVSFizTxYAuozMXgc3sRgzDktHjHuyqDMk7BeY7NaEnmqPeeCPhuYhHL8b6L75ADYdzNKfAAAA
+      armor-chestplate: H4sIAAAAAAAA/1XOsQoCMRAE0DmDILESxMovsfYbbGXdrF7Q7IZk7y/9KD2bw2KqxwwTgYDtmZwu0no2BXbvDVY54ViyCje6+yllKqbpyqN0ry9yCVizTeoAhojIVqqpqPeIw9IT5ZHUywwB+wUmvTWhZ9bHPPBHtZkL++8Khm8+mPv7CaMAAAA=
+      armor-leggings: H4sIAAAAAAAA/1WOMQ7CMBAEN1hIyFSREAVPoeYNtNHFPowFvovsyy95FAlNRLHVaEfjAYfjjYzuXFtWAfrPAbsccSlZOFR62DVmKipxeHNKWVJz2AedxQB0Hj5omVRYrHmctxdLeJJYWYHDaQOzjJXptZhWwR+aqhoH+4WgW/YFH9GTb6EAAAA=
+      armor-boots: H4sIAAAAAAAA/1XOwQrCMBAE0KlBkHgqiP6LZ7/Ba9luVg2S3ZJs/9KP0nopPczpMcNEIOB4I6e71JZNgf5zwC4nXEpW4UoPv6ZMxTQNo5m3gD3brA6gi4hsZTIV9RZxXiui/CL1skDAaYVZxyr0zvpcBjY0VXNh/79A98sXKy0MxJ4AAAA=
+      offhand: H4sIAAAAAAAA/0WMMQ7CMBAEN1iRkGlAQjyGmjfQX5yDnILXyL78Mo+CVCmmmtFEIOD0EJen1maFwGU94mAjztmoqcrL720y/YwBfSoLHUAXEVPJ30Klt4jb3irTJPS8iYDrLhYOVWU2vrfBnx/Yttn1fAAAAA==
+
+  basicplus:
+    permission: kits.preset.basicplus
+    display-name: "§eBasic§6+"
+    material: GOLDEN_SWORD
+    contents:
+      32: H4sIAAAAAAAA/0XLMQoCMRCF4ecOgsRqUfQu1p7BVsYkukEys2SyeEkPZRaLFK95H78DCPsrV77FYkkFGL87DCngnJNEX/hZLyFxVgl3+2gJhK3XRSqAjYPzmmeVKNUcTj2J4ieWmlcgjB3aE5K81ppw6L9NXGaJZk2IcOyyyKNEfv+joe0HbUY71rUAAAA=
+      33: H4sIAAAAAAAA/0XLSwoCMRCE4XIaQeJq8HEY157BrbRJ6zSSzpBkwEN6KDO4yKI29fE7gLC/cuWb5KLJgPG7w6ABp6gmPvOzXoJyTBbu/BHC1qfFKoCNg/MpzsnEanE490DMT2w1rkAYO7QnqL3WmnDof5k4zyalNCHCsctijyz8/kdD2w+f9NGuswAAAA==
+      34: GOLDEN_APPLE:64
+      35: COBWEB:64
+      36: BLUE_ICE:64
+      37: WATER_BUCKET
+      38: H4sIAAAAAAAA/1XMQQrCMBAF0K9DQSIiBfEwrj2D+zQdNUhmSjqhl/RQpnQRXMzm/T/fAYTj3Zt/cJ6jCtB/D9jHEacUhUP2T7sNuhC6oEUMwM7BBU2TCovNDtdWZAlvL5bWgNC3oMoY5bV+E87NJ104V+3+tdSdrXtpWmTI7D/bDNX7ASV0dti9AAAA
+      39: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      40: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+      5: EXPERIENCE_BOTTLE:64
+      6: WIND_CHARGE:64
+      7: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      8: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      9: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      10: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+      11: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+      12: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      13: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+      14: EXPERIENCE_BOTTLE:64
+      15: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      16: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      17: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      18: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      19: LAVA_BUCKET
+      20: WATER_BUCKET
+      21: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      22: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+      23: H4sIAAAAAAAA/1XMMQoCMRQE0HGDILFaEMGrWHsGW/kmP/pZ8rNks6B39FAmWASLaeYxYwGD/YUKXTkvkhQYPzsM4nGKouwyhXL2QjGpv83iJnqxwdalVQuAjYV1Kc5JWcticewjVvckLbGBwdihNl700dYGh96ves9M04+GP+IQxEl9fDeq+QIk4ir+uAAAAA==
+      24: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      25: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      26: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      27: COBWEB:32
+      28: LAVA_BUCKET
+      29: WATER_BUCKET
+      30: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+      31: ARROW:64
+      armor-helmet: H4sIAAAAAAAA/1WOQQrCMBBFvwmCxFVBxLO49gxuy5iMNmhmSjq9pYey1UVw8Tfv8eAHwGN/IaMr1ymrAN17B5cTTiULx0p3O6dMRSX1A78Km8c26iwGYBMQopZRhcWmgGNrWOJAYmUVHl0TC0lZHmvtcWh8lltlev6U+1NjVeNo33twyz7BVIUztwAAAA==
+      armor-chestplate: H4sIAAAAAAAA/1WOMQoCMRBFvwmCxGpBrDyJtWewXcZkdINmEpLZW3ood7UIFr95jwffARb7CyldubaYBRjeO5gYcEpR2Fe66zlESlnC6CduWl6kbLH1eRYFsHFwPqeShUWbw7F3LH4i0bQKi6GLhYQoj7W2OHQ+y60yPX/K/KlSs7LX70WYZR9ky0CUuwAAAA==
+      armor-leggings: H4sIAAAAAAAA/1WOMQoCMRRExw2CxGpBLDyKtWewXWLyjUHz/5L8vaWHMqtFsJhmHm8YCxjsL07dlUpNwsD43mFIAaecmHxxdz2H5LJwmF4UY+JYDbZeFlYAGwvrJc/CxFotjt0i9g/HmldgMHbQmtBmVtvg0PuFb4Xc84eGPzQXUfL6PYih5QPFb61puQAAAA==
+      armor-boots: H4sIAAAAAAAA/13OQQrCQAyF4aeDIHVVEMWruPYMbks6k9rBTlKm6S09lK0KAy6yeR8/pAIcDjcyunOeogpQv/bYxoBzisI+U2fXECmphKZVtclh53UWA7CpUHlNowqLTRVOJWHxPYmlFRzqAssSojzW2uFS9o7Jes5NR8Pw9a3DsfiY1djb58U/mqXNTM9ftdwbDQzEbdYAAAA=
+      offhand: H4sIAAAAAAAA/0WMMQ7CMBAEl1iRkGlAingMNW+gP5yDnMBrZF9+yaOSVCmmmtFEIOB0F5eH1maFwOV/RGcjztmoqcrLb20y/Y4BfSozHcAhIqaSf4VKbxHXvVWmSeh5EwHDLmY+q8rH+F4H3coCNhls53wAAAA=
+
+  vip:
+    permission: kits.preset.vip
+    display-name: "§bBasic§3++"
+    material: DIAMOND_SWORD
+    contents:
+      32: H4sIAAAAAAAA/3WSwWrbQBCGR5ZNlS0tpG1aejO0t2KI4ki2cpOl+NxTrmItjWxha2V2V6S5+dDSQw95gAZCe8xZL2GTl9CbZIVxJEF7Wna+mflnfoYA6PDSp5JeIRdJxgCOHw3oJBF8TBOGIaexvGAoF8gTiYG4znikQy/MciYBQCNAwixdZwyZFEfwui5aZRxJlWJU6eoH3TmnNwZ0JX6T4IhtURY/y2JTFr/6X/q7zfZh+3d3Vxa/+2XxfXe/fVBPxVSkLG7V80Mli90dEHhfyyALF5TJtNLX4bgGKhIlbF5NoMNJHY8TjgEVawyrBTo6vK2ZWFC+ZiiEIj0d3tUkZzOOdLlvqOvwoVF0jbhWIMBojhVVAzb0wlzILA0YTfEIemp1TitbyLMtLz5NJ75rmwdndLUptKjn2X6DblrUm1yOnAPVRJu507F1YB1lXRP6ruk8i2r9NnOGjv+fppdjy3Ua4/xp05E9sRr0tkWn9tgz64Ham0wt1/NbLmjQnWWrSDsE4Z/WRup8Cbz5ms9WSTjJl8tEXtFVjsIAMle9by7yXB3059PT2RmOTGtgoT0cnI9jZ0CdoT2ITTu2zejMGUXnBrzal6hrTwNVRSIqFvu7V/LwBG4sqj0xAwAA
+      33: H4sIAAAAAAAA/0XLSwoCMRCE4dJmQOJq8HEY157BrbRJ6zSSzpBkwEN6KDO4yKI29fE7gLC/cuWb5KLJgPG7w1YDTlFNfOZnvQTlmCzc+SOEwafFKoCNg/MpzsnEanE490DMT2w1rkAYO7QnqL3WmnDof5k4zyalNBkIxy6LPbLw+x9R2w8c4T0wswAAAA==
+      34: GOLDEN_APPLE:64
+      35: COBWEB:64
+      36: BLUE_ICE:64
+      37: WATER_BUCKET
+      38: H4sIAAAAAAAA/1XMQQrCMBAF0G+HgkRECuJhXHsG99N01CCZKWlCL+mhTHERXMzm/T/fAYTDjTPfJS3BFBg+e3RhwjEGFZ/4ka+jrYTeW9EMYOfgvMXZVDQvDpdWFPUv1hy3gDC0oMoU9Ll9E07NZ1slVe3/tdSdqh3h3LTomITfvxmq9wVWTV7LvQAAAA==
+      39: H4sIAAAAAAAA/02MMQ6DMBAEN0FByFRUiK9Q84a0lmUcsAR3lu/4ZR4VIwrS7s6MASq0k1P3DlkiE9B9GzzjjH6PFHx2Hx0lbU5Wm1gLUeHl+SAF8DAwnvfEFEjFYLiVi7WeSc+vQX0t/9mNabGiOdCia8n9ADgnMAuNAAAA
+      40: H4sIAAAAAAAA/0XMMQ6DMBAEwA2ICJmKiuQrqXkDrWUZQyzBncUd4pM8ChAF7e7sGiBH1Tp1XVgkMgH1XiKLPZo5UvCLG/QnaXLyt4n1FDkKzyspgJeB8TwnpkAqBt9nclvrmfTqSrzvBJ/HTEyjlS0OSkHk/DsAu0xfUo4AAAA=
+      5: EXPERIENCE_BOTTLE:64
+      6: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      7: WIND_CHARGE:64
+      8: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      9: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      10: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+      11: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+      12: H4sIAAAAAAAA/02MMQ6DMBAEN0FByFRUiK9Q84a0lmUcsAR3lu/4ZR4VIwrS7s6MASq0k1P3DlkiE9B9GzzjjH6PFHx2Hx0lbU5Wm1gLUeHl+SAF8DAwnvfEFEjFYLiVi7WeSc+vQX0t/9mNabGiOdCia8n9ADgnMAuNAAAA
+      13: H4sIAAAAAAAA/0XMMQ6DMBAEwA2ICJmKiuQrqXkDrWUZQyzBncUd4pM8ChAF7e7sGiBH1Tp1XVgkMgH1XiKLPZo5UvCLG/QnaXLyt4n1FDkKzyspgJeB8TwnpkAqBt9nclvrmfTqSrzvBJ/HTEyjlS0OSkHk/DsAu0xfUo4AAAA=
+      14: EXPERIENCE_BOTTLE:64
+      15: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      16: WIND_CHARGE:64
+      17: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      18: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      19: LAVA_BUCKET
+      20: WATER_BUCKET
+      21: H4sIAAAAAAAA/02MMQ6DMBAEN0FByFRUiK9Q84a0lmUcsAR3lu/4ZR4VIwrS7s6MASq0k1P3DlkiE9B9GzzjjH6PFHx2Hx0lbU5Wm1gLUeHl+SAF8DAwnvfEFEjFYLiVi7WeSc+vQX0t/9mNabGiOdCia8n9ADgnMAuNAAAA
+      22: H4sIAAAAAAAA/0XMMQ6DMBAEwA2ICJmKiuQrqXkDrWUZQyzBncUd4pM8ChAF7e7sGiBH1Tp1XVgkMgH1XiKLPZo5UvCLG/QnaXLyt4n1FDkKzyspgJeB8TwnpkAqBt9nclvrmfTqSrzvBJ/HTEyjlS0OSkHk/DsAu0xfUo4AAAA=
+      23: H4sIAAAAAAAA/1XMwQrCMBAE0NFQkHgqiOCvePYbvMq62ehSsiltCvqPfpQpHoKHucxjxgMO+wsVuso0azag/+yw1YBTUhOeKJZzUErZwm1UHuglDh3nxQqAjYfnnMZsYmX2OLaRGD/JSlrBoW9Qm6D2WNcOh9Yvdp+Ehh+5P5IYlbU+vit1NV9MMhptuAAAAA==
+      24: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+      25: WIND_CHARGE:64
+      26: H4sIAAAAAAAA/3WSy0rDQBSGT5sW04iCoq4LupOCl6ZN3E1Tu3bltkwmp3VoM5HMBOyuC8WFiA+gILh0nZdo8SXyJk6Q2gR0Ncz/ndt/OBaAAZt9qug1xpJHAmDny4QqD2A75AJZTEfqIqQMDaizKBEKACoWWCwKbyOBQslGMXIaxWjlIWYern9QG8d0ZkJN4Z0CVy7SLH3M0nmWPjWPm8v54nPxsXzL0tdmlt4v3xef+smZVrL0RT8POlgu38CCg3UbFOyGChXm/Q3YKUyKIuBinE9gwP5aH/EYh1TeIssNVEs5AQrJ1UzrdQP21noi/Bjp5KecoQco1GOJVFE4FDTEBtS1tZjmthu/tjcOB70+6ZyunBvaCRSp55HOoEDnZdojXW9FK7LE+oQ4ZMWqejUl6BK3+5vYLLFLhxC70PK5TLukd/bvQIMO8U4K9L5MbeL1C/QRKlDzo2lQWYnw5/4CfXgW7F4l/pSzXjKZcHVNpwlKE6yxrj27SBJ9ikddZrv2ueu0zh2Htdp2u91yWXvU8s98hido+yNKTdj6SeEKw6HOagRU3gzz29Xd4RvtTqVp6gIAAA==
+      27: COBWEB:64
+      28: LAVA_BUCKET
+      29: WATER_BUCKET
+      30: H4sIAAAAAAAA/02MMQ6DMBAEN0FByFRUiK9Q84a0lmUcsAR3lu/4ZR4VIwrS7s6MASq0k1P3DlkiE9B9GzzjjH6PFHx2Hx0lbU5Wm1gLUeHl+SAF8DAwnvfEFEjFYLiVi7WeSc+vQX0t/9mNabGiOdCia8n9ADgnMAuNAAAA
+      31: ARROW:64
+      armor-helmet: H4sIAAAAAAAA/1WOOw7CMBBEBwwSMlUkfmeh5gy00WJvwAKvg7MpuCOHIiFIFsU08/Q0YwGD9YmUzpy7kASo3ivMg8chBmGXqdGjDxST+PrGj8hqsHSpFwUws7AuxTYJi3YWu+KwuBuJxhEYVAUMjQ9yHW2Dbekzd23IpN8TMAb7wujZU01NEyToazI3hbY5KbufuPhDvVwy033aM0M+pjxMCvEAAAA=
+      armor-chestplate: H4sIAAAAAAAA/1WOMQ7CMBAEFwwSMlUkRMVLqHlDWnScD2KBz5Z9+SWPIoEiothmRiOtBxz2FzLqpbaYFejeO6xjwClFFa50t3OIlLKGKw/SrLzIxGHLeVQDsPLwnFPJKmrN47h0ojyQWpqFQ7eIiYSoj7l2OCx81FsVev6U+1OlZhO270Vspn0AaXzMv7sAAAA=
+      armor-leggings: H4sIAAAAAAAA/1XOMQ4CIRAF0K9oYrDaRC08ivWewXaDMItEGTYwGy/poWS1IBbT/Jf/MxpQ2PdGzJVyCYmB7r3DOjicY2Cy2YxyccHExG54kveBfVHY2jSzAFhpaJvilJhYisaptYjt3bDEBRS6BjVxdWZpKxxaPuUkZOX7BTZ/NPMtk3n8Wkrh2Ki8wihD4cqL1fsAqAt45dUAAAA=
+      armor-boots: H4sIAAAAAAAA/13OQQrCQAyF4aejIOOqIIpXce0Z3JZ0JrWDNinT9JYeytYuBlxk8z5+iAccjncyenAekwpQfQ7YpohLn4RDptZuMVGvEutG1UaHfdBJDMDGwwftBxUWGz3OJWEJHYn1CzhUBeYlJnkutcO17C2TdZzrlt7v1XcOp+JDVuNgvxf/aJImM73Wys33BaU+y5bWAAAA
+      offhand: H4sIAAAAAAAA/0WLMQ7CMBAEF05IyDSJhHgMNW+gP+wLOYHPyL78kkeRiMLFNjOzASCcbux8l9q0GDB+j9hrwpDVJFae/NpmlXciHGJZzAHsAkIs+VNMzFvApbdicWbzvAnC2MVKktpzexPOnS/2qMKvv6J1PwXy5OaUAAAA
+
+
+
+custom-kit-items:
+  plus_helmet:
+    permission: kits.item.plus_helmet
+    item: H4sIAAAAAAAA/1WOQQrCMBBFvwmCxFVBxLO49gxuy5iMNmhmSjq9pYey1UVw8Tfv8eAHwGN/IaMr1ymrAN17B5cTTiULx0p3O6dMRSX1A78Km8c26iwGYBMQopZRhcWmgGNrWOJAYmUVHl0TC0lZHmvtcWh8lltlev6U+1NjVeNo33twyz7BVIUztwAAAA==
+  plus_chestplate:
+    permission: kits.item.plus_chestplate
+    item: H4sIAAAAAAAA/1WOMQoCMRBFvwmCxGpBrDyJtWewXcZkdINmEpLZW3ood7UIFr95jwffARb7CyldubaYBRjeO5gYcEpR2Fe66zlESlnC6CduWl6kbLH1eRYFsHFwPqeShUWbw7F3LH4i0bQKi6GLhYQoj7W2OHQ+y60yPX/K/KlSs7LX70WYZR9ky0CUuwAAAA==
+  plus_leggings:
+    permission: kits.item.plus_leggings
+    item: H4sIAAAAAAAA/1WOMQoCMRRExw2CxGpBLDyKtWewXWLyjUHz/5L8vaWHMqtFsJhmHm8YCxjsL07dlUpNwsD43mFIAaecmHxxdz2H5LJwmF4UY+JYDbZeFlYAGwvrJc/CxFotjt0i9g/HmldgMHbQmtBmVtvg0PuFb4Xc84eGPzQXUfL6PYih5QPFb61puQAAAA==
+  plus_boots:
+    permission: kits.item.plus_boots
+    item: H4sIAAAAAAAA/13OQQrCQAyF4aeDIHVVEMWruPYMbks6k9rBTlKm6S09lK0KAy6yeR8/pAIcDjcyunOeogpQv/bYxoBzisI+U2fXECmphKZVtclh53UWA7CpUHlNowqLTRVOJWHxPYmlFRzqAssSojzW2uFS9o7Jes5NR8Pw9a3DsfiY1djb58U/mqXNTM9ftdwbDQzEbdYAAAA=
+  plus_sword:
+    permission: kits.item.plus_sword
+    item: H4sIAAAAAAAA/0XLMQoCMRCF4ecOgsRqUfQu1p7BVsYkukEys2SyeEkPZRaLFK95H78DCPsrV77FYkkFGL87DCngnJNEX/hZLyFxVgl3+2gJhK3XRSqAjYPzmmeVKNUcTj2J4ieWmlcgjB3aE5K81ppw6L9NXGaJZk2IcOyyyKNEfv+joe0HbUY71rUAAAA=
+  plus_axe:
+    permission: kits.item.plus_axe
+    item: H4sIAAAAAAAA/0XLSwoCMRCE4XIaQeJq8HEY157BrbRJ6zSSzpBkwEN6KDO4yKI29fE7gLC/cuWb5KLJgPG7w6ABp6gmPvOzXoJyTBbu/BHC1qfFKoCNg/MpzsnEanE490DMT2w1rkAYO7QnqL3WmnDof5k4zyalNCHCsctijyz8/kdD2w+f9NGuswAAAA==
+  plus_bow:
+    permission: kits.item.plus_bow
+    item: H4sIAAAAAAAA/1XMQQrCMBAF0K9DQSIiBfEwrj2D+zQdNUhmSjqhl/RQpnQRXMzm/T/fAYTj3Zt/cJ6jCtB/D9jHEacUhUP2T7sNuhC6oEUMwM7BBU2TCovNDtdWZAlvL5bWgNC3oMoY5bV+E87NJ104V+3+tdSdrXtpWmTI7D/bDNX7ASV0dti9AAAA
+  plus_pickaxe:
+    permission: kits.item.plus_pickaxe
+    item: H4sIAAAAAAAA/1XMMQoCMRQE0HGDILFaEMGrWHsGW/kmP/pZ8rNks6B39FAmWASLaeYxYwGD/YUKXTkvkhQYPzsM4nGKouwyhXL2QjGpv83iJnqxwdalVQuAjYV1Kc5JWcticewjVvckLbGBwdihNl700dYGh96ves9M04+GP+IQxEl9fDeq+QIk4ir+uAAAAA==
+  plus_shield:
+    permission: kits.item.plus_shield
+    item: H4sIAAAAAAAA/0WMMQ7CMBAEl1iRkGlAingMNW+gP5yDnMBrZF9+yaOSVCmmmtFEIOB0F5eH1maFwOV/RGcjztmoqcrLb20y/Y4BfSozHcAhIqaSf4VKbxHXvVWmSeh5EwHDLmY+q8rH+F4H3coCNhls53wAAAA=
+
+  max_helmet:
+    permission: kits.item.max_helm
+    item: H4sIAAAAAAAA/1WOOw7CMBBEBwwSMlUkfmeh5gy00WJvwAKvg7MpuCOHIiFIFsU08/Q0YwGD9YmUzpy7kASo3ivMg8chBmGXqdGjDxST+PrGj8hqsHSpFwUws7AuxTYJi3YWu+KwuBuJxhEYVAUMjQ9yHW2Dbekzd23IpN8TMAb7wujZU01NEyToazI3hbY5KbufuPhDvVwy033aM0M+pjxMCvEAAAA=
+  max_chestplate:
+    permission: kits.item.max_chestplate
+    item: H4sIAAAAAAAA/1WOMQ7CMBAEFwwSMlUkRMVLqHlDWnScD2KBz5Z9+SWPIoEiothmRiOtBxz2FzLqpbaYFejeO6xjwClFFa50t3OIlLKGKw/SrLzIxGHLeVQDsPLwnFPJKmrN47h0ojyQWpqFQ7eIiYSoj7l2OCx81FsVev6U+1OlZhO270Vspn0AaXzMv7sAAAA=
+  max_leggings:
+    permission: kits.item.max_leggings
+    item: H4sIAAAAAAAA/1XOMQ4CIRAF0K9oYrDaRC08ivWewXaDMItEGTYwGy/poWS1IBbT/Jf/MxpQ2PdGzJVyCYmB7r3DOjicY2Cy2YxyccHExG54kveBfVHY2jSzAFhpaJvilJhYisaptYjt3bDEBRS6BjVxdWZpKxxaPuUkZOX7BTZ/NPMtk3n8Wkrh2Ki8wihD4cqL1fsAqAt45dUAAAA=
+  max_boots:
+    permission: kits.item.max_boots
+    item: H4sIAAAAAAAA/13OQQrCQAyF4aejIOOqIIpXce0Z3JZ0JrWDNinT9JYeytYuBlxk8z5+iAccjncyenAekwpQfQ7YpohLn4RDptZuMVGvEutG1UaHfdBJDMDGwwftBxUWGz3OJWEJHYn1CzhUBeYlJnkutcO17C2TdZzrlt7v1XcOp+JDVuNgvxf/aJImM73Wys33BaU+y5bWAAAA
+  max_shield:
+    permission: kits.item.max_shield
+    item: H4sIAAAAAAAA/0WLMQ7CMBAEF05IyDSJhHgMNW+gP+wLOYHPyL78kkeRiMLFNjOzASCcbux8l9q0GDB+j9hrwpDVJFae/NpmlXciHGJZzAHsAkIs+VNMzFvApbdicWbzvAnC2MVKktpzexPOnS/2qMKvv6J1PwXy5OaUAAAA
+  max_pickaxe:
+    permission: kits.item.max_pickaxe
+    item: H4sIAAAAAAAA/1XMwQrCMBAE0NFQkHgqiOCvePYbvMq62ehSsiltCvqPfpQpHoKHucxjxgMO+wsVuso0azag/+yw1YBTUhOeKJZzUErZwm1UHuglDh3nxQqAjYfnnMZsYmX2OLaRGD/JSlrBoW9Qm6D2WNcOh9Yvdp+Ehh+5P5IYlbU+vit1NV9MMhptuAAAAA==
+  max_axe:
+    permission: kits.item.max_axe
+    item: H4sIAAAAAAAA/0XLSwoCMRCE4dJmQOJq8HEY157BrbRJ6zSSzpBkwEN6KDO4yKI29fE7gLC/cuWb5KLJgPG7w1YDTlFNfOZnvQTlmCzc+SOEwafFKoCNg/MpzsnEanE490DMT2w1rkAYO7QnqL3WmnDof5k4zyalNBkIxy6LPbLw+x9R2w8c4T0wswAAAA==
+  max_bow:
+    permission: kits.item.max_bow
+    item: H4sIAAAAAAAA/1XMQQrCMBAF0G+HgkRECuJhXHsG99N01CCZKWlCL+mhTHERXMzm/T/fAYTDjTPfJS3BFBg+e3RhwjEGFZ/4ka+jrYTeW9EMYOfgvMXZVDQvDpdWFPUv1hy3gDC0oMoU9Ll9E07NZ1slVe3/tdSdqh3h3LTomITfvxmq9wVWTV7LvQAAAA==
+
+  sharp_sword:
+    permission: kits.item.sharp_sword
+    item: H4sIAAAAAAAA/03NQQrCMBCF4aehIHElit7FtWdwW8ZkbINkEjIpvaSHMl3FxVt9/DwLGBwfVOnJRUMS4PQ9YB88bjEIu0LveveBYhI/6pqKNxhcWqQC2FlYl2JOwlLV4toTFjeT1LiBwbmDzlSysGrrB/P/oitzDjKN7CduagwuXRd5FaZP843afktOvNa7AAAA
+  notch_apple:
+    permission: kits.item.notch_apple
+    item: H4sIAAAAAAAA/wXBwQ2AIAwF0B+IidGTGziHZ2fwShqoSoItwbqlQ/HeBHjMOxkd3N6sAiz/CJcT1icLx0anbSzxJjFO4dKSWALVWthjiPqJAXDoy4Hn4EkAAAA=
+  grapple_hook:
+    permission: kits.item.grapple_hook
+    item: H4sIAAAAAAAA/3XSzWvCMBQA8OcXqx0ONthd2E4DYX60Nt7Sas87eZVYoyv2Q9oU5s3Ddtph18EEwaPn/hMt+yf6nyyyqQ3MU0h+eXkvyZMBSnDZJ4wMaRDavgdw/S1B0Z7ArWt71ArIlPWmdvhse7NR4E9KULH8yGMAUJBBtnx34XvUY2EVrk4Bjh9Qeb9F2m/nMyjPArKUoMzoC4OHdJXskm26zuKveha/pptkx4csfu/V000Wr7J4ncR7WIOcL8SKQua7I4+4tAoVflRA9mlqxzQXd6bex2rzkKmYbEFAw1TxEdOVgIahdNsHLPEyRNVx18jpp6jY1JSz2seKNjil3YiIMOqeCt6JqJn48YSxgANNwejcVQddrLcOWKiLppq6fu4ZTFUxOrmrfIiqYKOf0zcoQHnsO5PCYRH+/bMJ7zEZbp6isWNbejSf22xInIiGEsgzfvayF0W86+5b1niKLNpsqCpRGx1NUxpIaaNGB7XanfG01UaISFD7DbEZdUc8qsa7a7Fw/nqUVwA/XPQiF9kCAAA=
+  lifesteal_sword:
+    permission: kits.item.lifesteal_sword
+    item: H4sIAAAAAAAA/3WTTW/aQBCGBwwqcdVGSdNWvSG1PSLVARuTmz/wuadc0eIdg4W9Rt610tw4tMoxhxxTKeq1Z/5EUE/9B/yTroPwR1RO9s4z78y7Y48KoMBLlwhyiSkPEwZw8qcDzZDChzhk6KckEBcMxRzTUOCEXyUpVaDtJxkTANBQQfWTeJkwZIIfwetSFCUpqnlKJ0+XJ2jNUnLdgZbAbwLMc/1zd7v+vvm5Xa8e1/Jtu76Rgfvt+rbLn543kmweulo3z3k6rGQcVHhXdkHmzwkTcd5egZMSyAgN2Sw3oMDbMh6EKU4IX6Kf+28q8KZkfE7SJUPOJWkrcFaSjE1TJItdQUWB9xXRFeJSggnSGeZUGqz08zMuknjCSIxH0JY3T0k+leNiKi8+erZrGdp+MM3NA9ShZowK+Pi7Bh3HHH4p4N+7OrS9obmHihzhM6qbhbTB68xyzKryvkZdq296B+u6I2s0rNDVM6qNvENXHZumZRSWunU29KzxAbvjoW4blZa/6tRw7HGF3taoZ/QdvTRUd+vpluNWpD+gAa1pEtHGPgj//dpULpQKp1+zaRT6drZYhOKSRBnyDqgzWfv6Isvkin2iA2oEWtDv+Zpx3hv09UFvRHTS02lAp8FgqtFA/hevdhK5f/FEqo6jMEAukES7dZQe4B+3aPTOyAMAAA==
+  blade_dance:
+    permission: kits.item.blade_dance
+    item: H4sIAAAAAAAA/3WTv2/aQBTHHxhUYtRKafpDVRekdkWFBGzD0ho7mTtlRWf7AAt8Rj5baTaGIIYqypClEZFoOzL7n7DVKf+B/5PeOQJjCaZ79z7vfd+P04kAAlR15KNL7FHbJQDH/ypQtC344NgEmx4a+F2C/RH2bB/36ZXrWQKUTTcgPgAURBBN15m6BBOfHsGrLGnielhkIaUKD2c3KA09dF2Bko9/+PA1nkXr6G/8mITLWhLexKtozY4k/Nll11lqLrnrd3pbJuGC+e/iWfzAvUvYL/stXrHIp/s9qk/30TqecR2ahL+4nQqxsNtoTSlz8NQDul9YCmuEh6UtLbo1Gj+mckk4ZxqLKEztWx6woAdkPqbN3PFBWLF5av6Jwm5NalAQ4V22PkzMESK+w/cqwHEGmMeyyZAvX4C3mX9ge7iP6BSb/GGKApxkjI6QNyWYUkbKArzJSEAMD6Pxs6AgwPudpCuMpwz0sTXEnLIGd+qZAfVdp0+Qg4+gzIbzEH/u6nbwF58ueroqNTezF+MHyEFNl7QMrnJQ0xqyvIEC23ye9lpKc4fOc1RXZUXboYs87aidrXKhlmeKrp4e1D1XGqp+sKdzudXb6hajMAcvJFnbFb7J07aq6bmGC1Ay3IlV2Dhh7+4t9m9FeP09MCa22QvGY9u/RJMA0wqIQ6Z93Q0C9pM/t7DUNuSzRl0yO1K9JSOjbijN0/pZqz3ApmwpUqddgZfPKeybO32WVTUmyMKsBjH568N/xDLr+CsEAAA=
+  dash_sword:
+    permission: kits.item.dash_sword
+    item: H4sIAAAAAAAA/3WSwWrbQBCGR5ZNlS0tpG1aejO0t2KI4ki2cpOl+NxTrmItjWxha2V2V6S5+dDSQw95gAZCe8xZL2GTl9CbZIVxJEF7Wna+mflnfoYA6PDSp5JeIRdJxgCOHw3oJBF8TBOGIaexvGAoF8gTiYG4znikQy/MciYBQCNAwixdZwyZFEfwui5aZRxJlWJU6eoH3TmnNwZ0JX6T4IhtURY/y2JTFr/6X/q7zfZh+3d3Vxa/+2XxfXe/fVBPxVSkLG7V80Mli90dEHhfyyALF5TJtNLX4bgGKhIlbF5NoMNJHY8TjgEVawyrBTo6vK2ZWFC+ZiiEIj0d3tUkZzOOdLlvqOvwoVF0jbhWIMBojhVVAzb0wlzILA0YTfEIemp1TitbyLMtLz5NJ75rmwdndLUptKjn2X6DblrUm1yOnAPVRJu507F1YB1lXRP6ruk8i2r9NnOGjv+fppdjy3Ua4/xp05E9sRr0tkWn9tgz64Ham0wt1/NbLmjQnWWrSDsE4Z/WRup8Cbz5ms9WSTjJl8tEXtFVjsIAMle9by7yXB3059PT2RmOTGtgoT0cnI9jZ0CdoT2ITTu2zejMGUXnBrzal6hrTwNVRSIqFvu7V/LwBG4sqj0xAwAA
+  thunder_sword:
+    permission: kits.item.thunder_sword
+    item: H4sIAAAAAAAA/3WTzW6bQBDHx8ZWHSpXStMP9Yb6caospRgMzg1wOFc95GqtYW0jm8ViF6W5+ZAqhx7yALFUNceceQmsvgRv0t26NmyVnoD5zX9m/oNGBVDg6QgxdIFTGiUE4PhXB5pRCG/iiOAgRVN2RjCb4zRieEwvkzRUoB0kGWEA0FBBDZJ4lRBMGD2CZ5VomaRY5SnNjkjnX9CapeiqAy2GvzL4Qou8zG/KfF3m37WP2nZdPBT3202Z32llfr39UTzwh2A8Uua3GuVPkcRDXKeJhL/5Rc5f8+IeHu/0Vjc//CnJc9ei6bXQ85JFrm03ouAdqPCqmhyTYI4Ii4UlBY4rwCNhRGbCtwIvq/g0SvEY0RUOxE6aCpxUjM5RuiKYUk7aCryoSEYmKUaLXUFFgdc10SXGKw7GOJxhQfmAtX5BRlkSjwmK8RG0uccUiU13D/6fvPPdkTP4tF+BIjxK1PMHzp42txsJep5p9WvSf6jrWN5BWuQydHzbrEm/SXTkmPZ5jd7IdOgMrWqmtQxt3zndw4YmsXPbdIYHRmVmOa5ea/lTpgPfdWv0VqL+wPSM/w3km443kpw2oDVJlmFjH4RHf1rIb02F55+zyTIK3GyxiNgFWmaYdkCd8dpXZ1nGr+99aOi2NTGtHg4nes+wTb1n64HRM0/7077Vt40g5Ivu7iT8NOMxV3XZPCMhTnd3yieA34mADQThAwAA
+  windcutter_sword:
+    permission: kits.item.windcutter_sword
+    item: H4sIAAAAAAAA/32Tv2/aQBTHHxhU4qpV0p/qhtSuSECwfc5mGzx3yooO+wALfEa+s0g2hkaZKoaOIFXNmNn/BFan/gf+T3oOBdtR0uWse5/3vvfeV34ygAQv+5jjSxIyL6AAZ78bUPVc+OR7lDghHvMLSviUhB4nQ7YMQleCuhNElANARQbZCfxFQAnl7ARe50XzICSySKk2snRxg9okxNcNqHFyxaGVxjdpvGLJtpnGm2SbrNJ4ncbb3d1D5HYXiyONv+/uxZfB0yLKg4hIWyU/WVNpJtt/NyG2YUJm/edHc/+QkBLn7k4kgAwf8j4JdaaYcj8bQIKzHIiI69FJNqUE7/P42AvJELMFcTIHqhK8zRmb4nBBCWOC1CV4l5OIjkKCZ3tBSYKPhaIlIQsBhsSdkIyKBgvvORHjgT+k2CcnUBdjhzjz9fRoyYvPttk31M7BFSmNf0GZdlR0oNXdfQlalq7aOYwfwbamFXRvytRE2qBAv5WpYSOlQLcl2jc0ZBXopkz1gX7+H6rqZoHelinqG93jQMmqBAdIMfQDrDTLTLPM9pGxR6xnas8aPFBN0y7QdYna6rmlPteQrRhWv+RwBWqjYO5WDkF48ndwxc7K8OZrNJp7jhnNZh6/xPOIsAbIE6F9fRFFYou/oHan0yVEaaGei1o9dN5tIUXpttpOB7XRWEc97DTg1b5ErLg/FFWnS4+6TsQ5CfcrL5qAv7KrveAsBAAA
+  freeze_sword:
+    permission: kits.item.freeze_sword
+    item:  H4sIAAAAAAAA/3WTvY7aQBDHBwyKz7lEunwqHVKSEokPf2A6bEOd6lq0rMdggddovdblUlHc6aqI4sqkyT0DLxGU6t6AN8k6BGxHQXLhmd/8Z2f/9mgACjz1iCCXyJMwZgAXv1Sohj68i0KGlJNA9BmKGfJQ4Di5irmvQJ3GKRMAUNFAo3G0jBkykZzB81y0iDlqWYmalcsIalNOrlWoCfwsoN82PjZ2m5vt991m9XMj33abO5n4ttusG4/325UM/zwP+/xdViPDr9s1aPAmPwcZnREmomwABS5yIDN+yKbZCAq8zvNByHFMkiXS7AZVBV7mLJkRvmSYJJLUFXiVk5RNOJL5vqGiwNuC6ApxKcEY/SlmVA5YOI+miYijMSMRnkFd3p2TzJfzoy9P3o8cb2C2D9ZUH++hBN2h6RzhdlWCrtu1jANUpEVl6ljW8DQdOL1egT6UqDdo2Z2TWs/WbfdAK40SG/bsgXlkSZlZntMqdP3xD207doGuS3Rkmm73lBEjY+B6BektVKA2iRd+5ZCE/34XX/78Grz4lE4WIXXS+TwUl2SRYqKCNpW9r/tpKtfhA3YtPehRu0mMjtHUKdJmz2x3mrre6gSGTqwODVR4tpfIXYnGUnUecMQvf/dGDgC/AQUpnZxxAwAA
+  dash_mace:
+    permission: kits.item.dash_mace
+    item: H4sIAAAAAAAA/3WSy0rDQBSGT5sW04iCoq4LupOCl6ZN3E1Tu3bltkwmp3VoM5HMBOyuC8WFiA+gILh0nZdo8SXyJk6Q2gR0Ncz/ndt/OBaAAZt9qug1xpJHAmDny4QqD2A75AJZTEfqIqQMDaizKBEKACoWWCwKbyOBQslGMXIaxWjlIWYern9QG8d0ZkJN4Z0CVy7SLH3M0nmWPjWPm8v54nPxsXzL0tdmlt4v3xef+smZVrL0RT8POlgu38CCg3UbFOyGChXm/Q3YKUyKIuBinE9gwP5aH/EYh1TeIssNVEs5AQrJ1UzrdQP21noi/Bjp5KecoQco1GOJVFE4FDTEBtS1tZjmthu/tjcOB70+6ZyunBvaCRSp55HOoEDnZdojXW9FK7LE+oQ4ZMWqejUl6BK3+5vYLLFLhxC70PK5TLukd/bvQIMO8U4K9L5MbeL1C/QRKlDzo2lQWYnw5/4CfXgW7F4l/pSzXjKZcHVNpwlKE6yxrj27SBJ9ikddZrv2ueu0zh2Htdp2u91yWXvU8s98hido+yNKTdj6SeEKw6HOagRU3gzz29Xd4RvtTqVp6gIAAA==
+  slam_mace:
+    permission: kits.item.slam_mace
+    item: H4sIAAAAAAAA/3VTPWvbQBh+bdlUVmkhpe180HYoxeAvSba3sxzPnbKak3R2haVT0J0g3jK4ZAihQ6fSgNuMnfUnJDr1H+if9OTEsQTxJj1f770PvBqAAs+nRJAzGnEvZAAnf1Woey68DDxGnYgsxDggDlWg6YQxEwBQ00BzwuA8ZJQJ3ior/TCimpQoaiGXf9BYRmStQkPQCwEfeZrkyVWeXObJNfqE/n2Xn9k2245Rt9P5gHie3EiEZ7fwdEBfKn5KRRHzNf2TJundGPX0shPlySa7fdBs5LQjUbqOsh/ZNk++7WTXKLvcmdI76UG8iHhg8uT37sW/ijAN3h7Wpcz5QpgIih4UOCk1RpnrsWVRlgJvDvjCi+ic8HPqFEXWKx6XMu6JtcSbCrw+4DGzI0pW93GKfEApz4m5CIM5IwFtQVOuFZGi/tbjys/ezSZTbHT3W9c4lDnLwsZsz9WzbZWcYNPak4qsoMJOMR7iEntTZUd4ZD4ORRXudIixftR5auJJ7+jUmYGtTondVFkdW9MSewU1aNih79b2IDzZnysPQINXn2Pb95xJvFp54oz4MeUqaEuZvR7HsTyJ97pBBkN74LYNs6+3B7Q3atu23m/3FmanT/oGHXYdFV7cWzxBg7l0tbhPgnlxQ3I6/Ae8bpE8cgMAAA==
+  freeze_axe:
+    permission: kits.item.freeze_axe
+    item: H4sIAAAAAAAA/3WSv27iQBDGxzEoZKM7Kbl/LVJyJdIZxwbTGTvUV6VFa3sNK/A6Wq8luIoiUqooRcq7Ks/glzh0Vd6AN7lxEBhLibTFzvzm229mNQRAh1OfKnrDZMZTAXD2rwVHPIJvCRcslDRWA8HUlEmu2JgumA7NMM2FAgCNAAnT5DYVTKjsBD5WknkqGSlLWmU5RtCYSLpsQUOxhYKBYX1vb4q79Z9Nsfpb4G1T3GPi96Z4bL88rVcYvp7nbf6+rMHwYf0IBL5WPkyEUypUUjagw1kFMBNxMSlb0OHzgSCOechRtkTU1OFThbIplbeCZdmWHIhyEUhGZ9v3dOzgS8XCPFNpMhY0YSfQxOEkLQcn+8GPL0ZD37WN3exHL09Qg55n+3u4XtWgN7zuOTuo4x/UqTvqW+9S3zUc44A+16ljOv672uu+5e59tXad9ezhoWu945Hd9/au2qLOLNere2rQCNJ5pO2S8ObnRrigBM5/5sGch8N8NuPqhs5zlrWATPDt5SDPcWUvzavI6vYD2gnMXty5ikyr4xjdbqdn/bApi03DiXCoD1sJ7nMyRhWJJWO/Xncb7eE/gFA5VxMDAAA=
+  cobweb_axe:
+    permission: kits.item.cobweb_axe
+    item: H4sIAAAAAAAA/3WTv4rbQBDGx5ZNdAoJXP62giRVMEScJVnX2dYZ0qW61qxWa1vYWh3SitidioCLFG5jfBAu5dV6CYu8hN4kIxtbEuSqZb/ffvPtDIwCIMFzmwhyy8LICzjA5V8Zmp4L732PMxqSibjmTMxY6Ak2JksmQZsGMRcA0FBAoYF/F3DGRXQBL0vLIgiZgk+acvEcb9CahmQlQ0uwpYCv0T7N03WeJnn6U/2sZsn+cf8nu8/TnZqnP7Lf+0c8Cna4HZ9mSaQe1E22zdMHFLNtBE8EaPqngxdLJkUW2tYo7NCNx6+iZnJW6zVR2OxTNbsvPrEDBd6VfTFOZ4QLv2hYgssSoOJ6fFpMRYI3FcNk4lEPbStEbQlelyiakfCOsyg6koop5k7IyPxYT8IfvC0ZjSMR+GNOfHYBbew1JMWglfMcnn0YDey+oZ1GIWF/UKPDoWFX6KZGh4Mb0zrRZratw/6op1esDzVq9zWrGruuU+vKsp8qfNPT++fUhlpnpjGohiY1OjJ6w3NoY1lnen9o1z7UgJYTLNzGSYT/DtfFhVDg1bfYWXh0EM/nnrgli5hFMihTrL26jmNckY9k0qWG6/Q6mmkZne6V2e0QSqyOprmMUP2LSQ1HhhdHC+6PP0YXrozznTnFLmE8/ANL5xRBgwMAAA==
+
+  speed_one_short:
+    permission: kits.item.speed_one_short
+    item: H4sIAAAAAAAA/02MQQqDMBBFvw2KTFfFRelVXPcM3UpIExrQmeCM9JIeSsVFu/3/vUeAw/Xpzb/irFkYuK0tLvmN+5Q5htkn67WMXj9DEdsJhzrIwgagIlCQqQhHNiU8fsrJDkHYjq9Fcy7o/rLfnIyj6p7aALl1vTCJAAAA
+  strength_one_short:
+    permission: kits.item.short_strength_one
+    item: H4sIAAAAAAAA/02MQQ7CIBBFv21qCK7sxngV156hW0IQhURmCExv2UMVw8Ju/3/vaWDE5WnFLr7UyARcN4UhvnBLkbwr9i2Pmr+2BpNZGjFicrySADhpaMcpM3mSqnH/K501jkl+n8K5L5gPWSmePhJaaQeoDmsziAAAAA==
+  fire_res:
+    permission: kits.item.fire_res
+    item: H4sIAAAAAAAA/0XMMQ7CQAwEwIUIFB0VFaLhIdS8Ie3JOhywlNins/kljyIoRdrd2U1Ah9ODggZuLqbA+dtjL09cZlEujca4e53I37laLKLDodhHA8AuIRWbqylreMJ1m6w2F9P4dz2Oa4LbZibTVx6lcW7s4kFaeHn9ARXZNvqUAAAA
+  instant_health:
+    permission: kits.item.instant_health
+    item: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+  speed_one_long:
+    permission: kits.item.speed_one_long
+    item: H4sIAAAAAAAA/0XMMQ6DMBAEwA2ICJmKiuQrqXkDrWUZQyzBncUd4pM8ChAF7e7sGiBH1Tp1XVgkMgH1XiKLPZo5UvCLG/QnaXLyt4n1FDkKzyspgJeB8TwnpkAqBt9nclvrmfTqSrzvBJ/HTEyjlS0OSkHk/DsAu0xfUo4AAAA=
+  strength_one_long:
+    permission: kits.item.strength_one_long
+    item: H4sIAAAAAAAA/02MMQ6DMBAEN0FByFRUiK9Q84a0lmUcsAR3lu/4ZR4VIwrS7s6MASq0k1P3DlkiE9B9GzzjjH6PFHx2Hx0lbU5Wm1gLUeHl+SAF8DAwnvfEFEjFYLiVi7WeSc+vQX0t/9mNabGiOdCia8n9ADgnMAuNAAAA
+  strength_two:
+    permission: kits.item.strength_two
+    item: H4sIAAAAAAAA/02MMQ6DMBAElyAiZCoqlK+kzhvSWpYxYAnuLN/ll3kURhRQrTQ7uwao0X2cum/IEpmA/t/iEUcMW6Tgs5v0LWl1stjEWowajecfKYDKwHjeElMgFYPXNTld65n06Fo8T3J3RDPTbEsEmnUphztiLLXSjwAAAA==
+  instant_health_two:
+    permission: kits.item.instant_health_two
+    item: H4sIAAAAAAAA/0XMQQ5AMBQE0EGI1MpKXMXaGWzlp4om/N/od0uHQixsZ96MATJUPSkN7oheGKivEqmf0OyenT1o1i6GjeI6BtFHZMitnKwAEgNjZQ/CjjUatP/ks6MV1rcrUXwJ6t+sjjbPy3N0A77QQwuHAAAA
+  speed_two:
+    permission: kits.item.speed_two
+    item: H4sIAAAAAAAA/02MMQ6DMBAEF1AQcqpUUXgKNW+gtSzHgKVwZ/kO8UkeFSIK0u7OjAEq3HunbghZIhPw2BuU8Y3nEin47EbtJH2czDaxHkSFm+eVFEBhYDwviSmQisHrUk7Weib9fQ3qc0H7l9XMNFnZ4qgURI7iF/lPP5SQAAAA
+
+  basic_sword:
+    permission: kits.item.basic_sword
+    item: H4sIAAAAAAAA/0XLMQoCMRBG4V+DILESRe9i7RlsZUxGN0hmlpksXtJDaaoUr/p4EQjYXanRjc2LCrD/brEuGedahJPRs11yoaqS7/5RywGbpIs0AKuImLTOKizNI05jYUkTSasdAg4DfCKbhd37H3AcssjDmN5FXp3+/QC7HGVrnQAAAA==
+  basic_pickaxe:
+    permission: kits.item.basic_pickaxe
+    item: H4sIAAAAAAAA/0XLPQpCMRBF4atBkFiJP4uxdg22MiajL0huHpk8cJEuSlOlONXH8YDD7ipNblotFQL77xbrFHHKiRqqPNslJsmF8S4fddiEsrABWHn4UPJcqGzmcR6DMkzCljs4HAbYJHWmmvXf4Thk4aOqvBNfnf79ANcWKIqbAAAA
+  basic_axe: 
+    permission: kits.item.basic_axe
+    item: H4sIAAAAAAAA/1XMQQrCMBCF4adBkLgSRPAqrj2D2zKdTHQomZQ0Bb2jh2qzKi7e6uN/HnA4PajSU8qk2YDz74i9BtySmnChWO9BKWUL3ag80EccDpxnqwB2Hp5zGrOJ1cnjukVi/CarqYHDZYPZ+iI0qL3awR9JjMq6lt9G6xbfifTPoAAAAA==
+  basic_helmet:
+    permission: kits.item.basic_helmet
+    item: H4sIAAAAAAAA/1XOwQrCQAwE0KmLIOtJEPFbPPsNXiVmow26Sdmmf+lHab0UD3N6zDAZSNieKegibVQ3YPfeYKUFx6om3Ogep6JU3cq1l1eVSFizTxYAuozMXgc3sRgzDktHjHuyqDMk7BeY7NaEnmqPeeCPhuYhHL8b6L75ADYdzNKfAAAA
+  basic_chestplate:
+    permission: kits.item.basic_chestplate
+    item: H4sIAAAAAAAA/1XOsQoCMRAE0DmDILESxMovsfYbbGXdrF7Q7IZk7y/9KD2bw2KqxwwTgYDtmZwu0no2BXbvDVY54ViyCje6+yllKqbpyqN0ry9yCVizTeoAhojIVqqpqPeIw9IT5ZHUywwB+wUmvTWhZ9bHPPBHtZkL++8Khm8+mPv7CaMAAAA=
+  basic_leggings:
+    permission: kits.item.basic_leggings
+    item: H4sIAAAAAAAA/1WOMQ7CMBAEN1hIyFSREAVPoeYNtNHFPowFvovsyy95FAlNRLHVaEfjAYfjjYzuXFtWAfrPAbsccSlZOFR62DVmKipxeHNKWVJz2AedxQB0Hj5omVRYrHmctxdLeJJYWYHDaQOzjJXptZhWwR+aqhoH+4WgW/YFH9GTb6EAAAA=
+  basic_boots:
+    permission: kits.item.basic_boots
+    item: H4sIAAAAAAAA/1XOwQrCMBAE0KlBkHgqiP6LZ7/Ba9luVg2S3ZJs/9KP0nopPczpMcNEIOB4I6e71JZNgf5zwC4nXEpW4UoPv6ZMxTQNo5m3gD3brA6gi4hsZTIV9RZxXiui/CL1skDAaYVZxyr0zvpcBjY0VXNh/79A98sXKy0MxJ4AAAA=
+  basic_shield:
+    permission: kits.item.basic_shield
+    item: H4sIAAAAAAAA/0WMMQ7CMBAEN1iRkGlAQjyGmjfQX5yDnILXyL78Mo+CVCmmmtFEIOD0EJen1maFwGU94mAjztmoqcrL720y/YwBfSoLHUAXEVPJ30Klt4jb3irTJPS8iYDrLhYOVWU2vrfBnx/Yttn1fAAAAA==
+
+kit-item-limits:
+  golden_apple:
+    default: 64
+    values: [96, 128, 256]
+  sharp_sword:
+    default: 1
+    values: [2, 3, 4, 5]
+  notch_apple:
+    default: 1
+    values: [2, 3, 4, 5]
+  grapple_hook:
+    default: 1
+    values: [2, 3, 4, 5]
+  lifesteal_sword:
+    default: 1
+    values: [2, 3, 4, 5]
+  blade_dance:
+    default: 1
+    values: [2, 3, 4, 5]
+  dash_sword:
+    default: 1
+    values: [2, 3, 4, 5]
+  thunder_sword:
+    default: 1
+    values: [2, 3, 4, 5]
+  windcutter_sword:
+    default: 1
+    values: [2, 3, 4, 5]
+  freeze_sword:
+    default: 1
+    values: [2, 3, 4, 5]
+  dash_mace:
+    default: 1
+    values: [2, 3, 4, 5]
+  slam_mace:
+    default: 1
+    values: [2, 3, 4, 5]
+  freeze_axe:
+    default: 1
+    values: [2, 3, 4, 5]
+  cobweb_axe:
+    default: 1
+    values: [2, 3, 4, 5]
+
+kit-cooldowns:
+  basic: 0          # seconds, 0 = no cooldown
+  basicplus: 60    # 5 minutes
+  vip: 300          # 10 minutes
+  custom: 300       # applies to all custom kit slots
+
+kill-ranks:
+  enabled: true
+  ranks:
+    - kills: 50
+      permission: kits.preset.basicplus
+      message: "§eYou've unlocked §6Basic+§e!"
+    - kills: 200
+      permission: kits.preset.vip
+      message: "§bYou've unlocked §3Basic++§b!"
+
+messages:
+  prefix: "§8[§6Kits§8] §r"
+  kit-equipped: "{prefix}§aEquipped the §e{kit} §akit!"
+  kit-cooldown: "{prefix}§cThis kit is on cooldown for §e{time}§c!"
+  custom-cooldown: "{prefix}§cCustom kit is on cooldown for §e{time}§c!"
+  no-permission-kit: "{prefix}§cYou don't have permission for that kit!"
+  no-permission-editor: "{prefix}§cYou need §eVIP §cto create custom kits!"
+  kit-saved: "{prefix}§aKit saved!"
+  kit-cleared: "{prefix}§cKit cleared!"
+  no-permission-item: "{prefix}§cNo permission to use: §e{item}"
+  item-limit: "{prefix}§cMax §e{limit} §cof §e{item} §callowed!"
+  item-banned: "{prefix}§cYou cannot add §e{item} §cto your kit!"
+  kill-rank: "{prefix}§aYou've unlocked a new rank!"
+  kit-not-found: "{prefix}§cKit not found!"

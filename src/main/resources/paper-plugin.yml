@@ -1,0 +1,28 @@
+name: CatsKits
+version: '1.0-SNAPSHOT'
+main: github.catchaos8.catsKits.CatsKits
+api-version: '1.21'
+
+permissions:
+  kits.editor:
+    description: Ability to create custom kits
+    default: false
+  kits.cooldown.bypass.basic:
+    description: Bypass basic kit cooldown
+    default: false
+  kits.cooldown.bypass.basicplus:
+    description: Bypass basic+ kit cooldown
+    default: false
+  kits.cooldown.bypass.vip:
+    description: Bypass basic++ kit cooldown
+    default: false
+  kits.cooldown.bypass.custom:
+    description: Bypass custom kit cooldown
+    default: false
+
+
+dependencies:
+  server:
+    LuckPerms:
+      load: BEFORE
+      required: false
