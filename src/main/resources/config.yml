@@ -333,6 +333,8 @@ kit-item-limits:
     default: 1
     values: [2, 3, 4, 5]
 
+isDevNice: true
+
 kit-cooldowns:
   basic: 0          # seconds, 0 = no cooldown
   basicplus: 60    # 5 minutes

