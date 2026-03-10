@@ -11,9 +11,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class GuiListener implements Listener {
     private final CatsKits plugin;
@@ -25,6 +23,8 @@ public class GuiListener implements Listener {
     @EventHandler
     public void onInventoryClick(InventoryClickEvent event) {
         if (!(event.getWhoClicked() instanceof Player player)) return;
+
+        event.setCancelled(true);
 
         String title = PlainTextComponentSerializer.plainText().serialize(event.getView().title());
 
@@ -63,7 +63,6 @@ public class GuiListener implements Listener {
                     plugin.getMessages().send(player, "no-permission-editor");
                     return;
                 }
-                player.closeInventory();
                 plugin.getKitGui().openEditor(player, kitSlot);
             } else {
 
