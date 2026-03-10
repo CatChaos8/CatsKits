@@ -1,6 +1,7 @@
 package github.catchaos8.catsKits.kits;
 
 import org.bukkit.inventory.ItemStack;
+
 import java.util.UUID;
 
 public class Kit {
